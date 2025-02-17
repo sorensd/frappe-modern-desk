@@ -6,6 +6,11 @@
     --third-color: #3e7386;
     --widget-bg: #e8eafcad; 
 }
+
+.navbar .navbar-nav .nav-link {
+	color: #fff!important;
+}
+
 [data-theme=modern_ui_theme]{
     --primary: var(--main-color);
     --dt-primary-color: var(--main-color);
@@ -228,8 +233,8 @@
 }
 
 [data-theme=modern_ui_theme] .notifications-icon svg{
-    stroke: #fff;
-    fill: #fff;
+    stroke: #fff !important;
+    fill: #fff !important;
 }
 
 [data-theme=modern_ui_theme] #page-Workspaces .page-head{
