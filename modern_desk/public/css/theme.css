@@ -1,10 +1,10 @@
 /* Works on Chrome, Edge, and Safari */
 /* Taken from https://github.com/tahir-zaqout/sundae_theme/tree/master/sundae_theme/public/css */
-:root{
-    --main-color: #691551;
-    --second-color: #af3d8f;
-    --third-color: #a5488a;
-    --widget-bg: #e8eafcad ;
+:root {
+    --main-color: #2f434a;
+    --second-color: #3f626e;
+    --third-color: #3e7386;
+    --widget-bg: #e8eafcad; 
 }
 [data-theme=modern_ui_theme]{
     --primary: var(--main-color);
@@ -16,7 +16,7 @@
 
 [data-theme=modern_ui_theme] .page-container,
 [data-theme=modern_ui_theme] .layout-main-section {
-    background-color: var(--widget-bg);
+    background-color: #FFF;
 }
 [data-theme=modern_ui_theme] ul li a:hover {
     background-color: var(--second-color);
@@ -76,7 +76,8 @@
 
 /* Widgets */
 [data-theme=modern_ui_theme] .widget {
-    background-color: var(--widget-bg);
+    background-color: #FFF;
+    padding: 6px 7px;
 	border: none;
 	box-shadow: 0px 3px 12px 0px var(--widget-bg), 0 3px 3px -2px #461a7714;
 }
@@ -124,7 +125,7 @@
     box-shadow: 0 1px 10px 1px rgba(115, 108, 203, 0.1);
 }
 [data-theme=modern_ui_theme] .page-title .title-text {
-	color: var(--third-color);
+	color: #000;
 	font-size: 22px;
 }
 [data-theme=modern_ui_theme] .widget .widget-head .widget-title,
